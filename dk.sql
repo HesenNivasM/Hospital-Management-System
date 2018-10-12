@@ -70,12 +70,7 @@ CREATE TABLE `doctor_details` (
 --
 
 INSERT INTO `doctor_details` (`id`, `name`, `qual`, `special`, `phn`, `username`, `password`) VALUES
-('1', 'Dinesh', 'MBBS,MS', 'Cardiology', 8190038383, 'dinesh', 'dinesh'),
-('16161616', 'Selva Rani', 'MBBS MD MD', 'Neurosurgery', 982501921, 'selvarani', 'selvarani'),
-('1833556', 'Monisha', 'MBBS MD', 'General Surgery', 8190038383, 'monisha', 'monisha'),
-('2', 'Gowtham', 'MBBS', 'Anaesthesiology', 8190038383, 'gowtham', 'gowtham'),
-('3', 'Hesen', 'MBBS,MS', 'Cardiology', 8190038383, 'hesen', 'hesen'),
-('77', 'Aakash', 'MBBS MS', 'General Medicine', 82191282721, 'aakash', 'aakash');
+('1', 'Dinesh', 'MBBS,MS', 'Cardiology', 8190038383, 'dinesh', 'dinesh');
 
 -- --------------------------------------------------------
 
@@ -96,12 +91,9 @@ CREATE TABLE `patient_details` (
 --
 
 INSERT INTO `patient_details` (`id`, `name`, `age`, `sex`, `phn`) VALUES
-(1, 'Hesen', 19, 'Male', 8190038383),
-(5, 'Dinesh', 19, 'Male', 9443854160),
 (7, 'bharath', 19, 'Male', 7777777777),
 (8, 'aravind', 19, 'Female', 8881118889),
 (9, 'eli', 19, 'Female', 19181918191),
-(10, 'Hesen', 19, 'Male', 8124432151),
 (11, 'Rakesh', 17, 'Male', 9090999090);
 
 --
